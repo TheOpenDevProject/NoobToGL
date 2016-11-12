@@ -8,14 +8,16 @@ SOURCES += main.cpp \
     glad.c \
     display.cpp \
     glmathtoolkit.cpp \
-    shader.cpp
+    shader.cpp \
+    mesh.cpp
 
 HEADERS += \
     glad/glad.h \
     KHR/khrplatform.h \
     display.h \
     glmathtoolkit.h \
-    shader.h
+    shader.h \
+    mesh.h
 QMAKE_CXXFLAGS += -g -rdynamic
 
 DISTFILES += \
