@@ -1,11 +1,27 @@
 #ifndef MESH_H
 #define MESH_H
-
+#include <glad/glad.h>
+#include <glm/glm.hpp>
+struct Vertex{
+    glm::vec3 pos;
+};
 
 class Mesh
 {
 public:
-    Mesh();
+    Mesh(Vertex* verticies, unsigned int numVerticies);
+    void draw();
+private:
+    Mesh(const Mesh& other) = delete;
+    void operator=(const Mesh& other){
+        enum{
+            POSITION_VB,
+            NUM_BUFFERS
+        };
+    }
+    GLuint m_vertexArrayObject;
+    GLuint m_vertexArrayBuffers[NUM_BUFFERS];
+    unsigned int m_drawCount;
 };
 
 #endif // MESH_H

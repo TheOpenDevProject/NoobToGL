@@ -1,6 +1,11 @@
 #include "mesh.h"
 
-Mesh::Mesh()
+Mesh::Mesh(Vertex *verticies, unsigned int numVerticies)
+{
+
+}
+
+void Mesh::draw()
 {
 
 }
