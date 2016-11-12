@@ -17,3 +17,7 @@ HEADERS += \
     glmathtoolkit.h \
     shader.h
 QMAKE_CXXFLAGS += -g -rdynamic
+
+DISTFILES += \
+    basicshader.vs \
+    basicshader.fs

@@ -13,7 +13,9 @@ int main() {
     d.createWindow(800,800,"Goood",3,3,GL_FALSE);
 
     //Development shader
-    Shader xShader("myFile.shader");
+    Shader xShader("basicshader");
+    xShader.bindShader();
+
 
     while(!d.isClosing()){
       d.pollEvents();
