@@ -10,7 +10,6 @@ SOURCES += main.cpp \
     glmathtoolkit.cpp \
     shader.cpp \
     mesh.cpp \
-    glm/detail/dummy.cpp \
     glm/detail/glm.cpp
 
 HEADERS += \

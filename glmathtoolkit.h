@@ -1,10 +1,9 @@
 #ifndef GLMATHTOOLKIT_H
 #define GLMATHTOOLKIT_H
 
-
 class GLMathToolkit
 {
-public:
+  public:
     GLMathToolkit();
     static float convertFromRGB(float color);
 };

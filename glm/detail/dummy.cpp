@@ -189,8 +189,7 @@ typename vecType::value_type normalizeDotC(vecType const & a, vecType const & b)
 int main()
 {
 /*
-	glm::vec1 o(1);
-	glm::vec2 a(1);
+	glm::vec1 o(1);	glm::vec2 a(1);
 	glm::vec3 b(1);
 	glm::vec4 c(1);
 

@@ -2,7 +2,6 @@
 
 GLMathToolkit::GLMathToolkit()
 {
-
 }
 
 float GLMathToolkit::convertFromRGB(float color)
