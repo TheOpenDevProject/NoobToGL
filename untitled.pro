@@ -169,5 +169,5 @@ HEADERS += \
 QMAKE_CXXFLAGS += -g -rdynamic
 
 DISTFILES += \
-    basicshader.vs \
-    basicshader.fs
+    basicshader.fs \
+    basicshader.vs

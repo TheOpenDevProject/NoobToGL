@@ -2,8 +2,12 @@
 #define MESH_H
 #include <glad/glad.h>
 #include <glm/glm.hpp>
-struct Vertex
-{
+
+class Vertex{
+public:
+    Vertex(const glm::vec3& pos){this->pos = pos;}
+private:
+protected:
     glm::vec3 pos;
 };
 
