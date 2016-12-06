@@ -7,7 +7,7 @@ int main()
 
   Display d;
   //GL Clear color in RGB
-  d.setClearColor(255, 0, 255);
+  d.setClearColor(100, 255, 255);
 
   //Last step in fake game engine
   d.createWindow(800, 800, "Goood", 3, 3, GL_FALSE);

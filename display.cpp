@@ -38,8 +38,9 @@ void Display::createWindow(int width, int height, std::__cxx11::string windowTit
 void Display::updateWindow()
 {
     glClearColor(clearR, clearG, clearB, clearA);
-    glClear(GL_COLOR_BUFFER_BIT);
     glfwSwapBuffers(this->window.get());
+    glClear(GL_COLOR_BUFFER_BIT);
+
 }
 
 void Display::pollEvents() const

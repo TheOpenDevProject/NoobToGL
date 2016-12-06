@@ -1,8 +1,8 @@
-#version 150
+// Frag
+#version 150 core
 
-out vec4 outColor;
+out vec4 fragColor;
 
-void main()
-{
-    outColor = vec4(1.0, 1.0, 1.0, 1.0);
+void main() {
+    fragColor = vec4(1.0, 0.0, 0.0, 1.0);
 }
